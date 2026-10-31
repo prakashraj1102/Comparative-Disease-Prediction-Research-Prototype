@@ -6,6 +6,15 @@ The project keeps the two experimental pipelines independent. Given the same 132
 
 > **Research-use notice:** This project is an experimental research prototype, not a medical device or clinical decision-support system. Its outputs are not diagnoses and must not be used to make medical decisions. The displayed percentages are model `predict_proba` scores; probability calibration and clinical validity have not been established.
 
+## 🚀 Live Application
+
+**[Launch the Disease Prediction App](https://prakash-disease-prediction.streamlit.app/)**
+
+Explore the two independent prediction pipelines:
+- Stable-FCI feature selection
+- STAR CI-selected feature selection
+
+[View Source Code on GitHub](https://github.com/prakashraj1102/Comparative-Disease-Prediction-Research-Prototype)
 ---
 
 ## At a glance
