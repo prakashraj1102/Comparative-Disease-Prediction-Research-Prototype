@@ -1,0 +1,137 @@
+{
+  "stable_fci": {
+    "n_features": 37,
+    "best_params": {
+      "n_estimators": 300,
+      "max_depth": null
+    },
+    "best_cv_macro_f1": 0.7806675398719198,
+    "train_metrics": {
+      "split": "train",
+      "model": "Random Forest - Stable-FCI features",
+      "n_features": 37,
+      "accuracy": 0.8160569105691057,
+      "precision_macro": 0.7695577552866453,
+      "recall_macro": 0.8160569105691056,
+      "f1_macro": 0.7806495389328623,
+      "precision_weighted": 0.7695577552866454,
+      "recall_weighted": 0.8160569105691057,
+      "f1_weighted": 0.7806495389328624,
+      "roc_auc_macro_ovr": 0.9900497147061316,
+      "top3_accuracy": 0.9354674796747967,
+      "evaluation_time_sec": 0.4391
+    },
+    "test_metrics": {
+      "split": "test",
+      "model": "Random Forest - Stable-FCI features",
+      "n_features": 37,
+      "accuracy": 0.8089430894308943,
+      "precision_macro": 0.7675074998398984,
+      "recall_macro": 0.8089430894308944,
+      "f1_macro": 0.7756448393377516,
+      "precision_weighted": 0.7675074998398984,
+      "recall_weighted": 0.8089430894308943,
+      "f1_weighted": 0.7756448393377516,
+      "roc_auc_macro_ovr": 0.9893028031842819,
+      "top3_accuracy": 0.9288617886178862,
+      "evaluation_time_sec": 0.2825
+    },
+    "generalization_gap": {
+      "accuracy": 0.007113821138211351,
+      "precision_macro": 0.0020502554467468626,
+      "recall_macro": 0.007113821138211129,
+      "f1_macro": 0.005004699595110629,
+      "precision_weighted": 0.0020502554467469736,
+      "recall_weighted": 0.007113821138211351,
+      "f1_weighted": 0.00500469959511074,
+      "roc_auc_macro_ovr": 0.0007469115218496913,
+      "top3_accuracy": 0.0066056910569105565
+    }
+  },
+  "all_symptoms": {
+    "n_features": 132,
+    "best_params": {
+      "n_estimators": 100,
+      "max_depth": null
+    },
+    "best_cv_macro_f1": 1.0,
+    "train_metrics": {
+      "split": "train",
+      "model": "Random Forest - All symptoms",
+      "n_features": 132,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc_macro_ovr": 1.0,
+      "top3_accuracy": 1.0,
+      "evaluation_time_sec": 0.2061
+    },
+    "test_metrics": {
+      "split": "test",
+      "model": "Random Forest - All symptoms",
+      "n_features": 132,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc_macro_ovr": 1.0,
+      "top3_accuracy": 1.0,
+      "evaluation_time_sec": 0.1323
+    },
+    "generalization_gap": {
+      "accuracy": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0,
+      "f1_macro": 0.0,
+      "precision_weighted": 0.0,
+      "recall_weighted": 0.0,
+      "f1_weighted": 0.0,
+      "roc_auc_macro_ovr": 0.0,
+      "top3_accuracy": 0.0
+    }
+  },
+  "feature_reduction_pct": 71.97,
+  "overfitting_controls": {
+    "stratified_train_test_split": true,
+    "test_size": 0.2,
+    "random_state": 42,
+    "stable_fci_run_on_training_only": true,
+    "stratified_cv_folds": 5,
+    "min_samples_leaf": 1,
+    "param_grid": [
+      {
+        "n_estimators": 100,
+        "max_depth": null
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": null
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 10
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 20
+      },
+      {
+        "n_estimators": 500,
+        "max_depth": null
+      }
+    ],
+    "CV_selection_metric": "macro_f1",
+    "test_used_for_param_selection": false
+  }
+}

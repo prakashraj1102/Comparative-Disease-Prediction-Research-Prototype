@@ -1,0 +1,24 @@
+METRICS SUMMARY
+============================================================
+Number of diseases: 41
+Number of original symptoms: 132
+Number of CI-selected symptoms: 106
+Number of test patients: 42
+
+Accuracy: 0.9762
+Macro Precision: 0.9878
+Macro Recall: 0.9878
+Macro F1: 0.9837
+Weighted F1: 0.9762
+Top-1 Accuracy: 0.9762
+Top-3 Accuracy: 0.9762
+Top-5 Accuracy: 1.0000
+Log Loss: 0.0772
+
+Solver: lbfgs
+Max iterations: 1000
+Iterations used: [29]
+Converged: YES
+
+Regularization strength C (selected via 5-fold CV): 1.0
+Best cross-validated macro F1: 0.9963

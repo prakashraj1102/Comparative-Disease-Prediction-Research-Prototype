@@ -1,0 +1,23 @@
+EXPERIMENT CONFIGURATION
+============================================================
+ALPHA: 0.05
+RANDOM_STATE: 42
+LogisticRegression solver: lbfgs
+max_iter: 1000
+class_weight: None
+C (regularization strength, selected via CV): 1.0
+C_GRID searched: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+CV_FOLDS: 5
+Best cross-validated macro F1: 0.9963
+Number of diseases: 41
+Number of original symptoms: 132
+Number of selected symptoms: 106
+Number of training patients: 4920
+Number of test patients: 42
+
+=== CI Screening Procedure ===
+Stage 1: Unconditional test D ⟂ S
+Stage 2: Conditional test D ⟂ S | (D AND S_j)
+Stage 2 conditioning set size: 1
+Stage 2 stopping rule: Stop at first INDEPENDENT result
+INVALID CI test decision: DEPENDENT

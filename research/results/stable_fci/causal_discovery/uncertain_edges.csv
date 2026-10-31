@@ -1,0 +1,9 @@
+node1,node2,endpoint1,endpoint2,node1_type,node2_type
+mood_swings,abnormal_menstruation,CIRCLE,CIRCLE,symptom,symptom
+restlessness,weight_loss,CIRCLE,ARROW,symptom,symptom
+restlessness,excessive_hunger,CIRCLE,ARROW,symptom,symptom
+blurred_and_distorted_vision,lethargy,CIRCLE,ARROW,symptom,symptom
+cough,high_fever,CIRCLE,ARROW,symptom,symptom
+blurred_and_distorted_vision,excessive_hunger,CIRCLE,ARROW,symptom,symptom
+blurred_and_distorted_vision,irritability,CIRCLE,ARROW,symptom,symptom
+abnormal_menstruation,irritability,CIRCLE,ARROW,symptom,symptom

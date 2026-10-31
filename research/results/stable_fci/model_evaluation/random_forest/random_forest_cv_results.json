@@ -1,0 +1,162 @@
+{
+  "stable_fci_cv": [
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 100,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 0.7798418176794017,
+      "std_cv_macro_f1": 0.0035585931246413438,
+      "fold_1_macro_f1": 0.7749922753773846,
+      "fold_2_macro_f1": 0.7814255864053917,
+      "fold_3_macro_f1": 0.7842010621141287,
+      "fold_4_macro_f1": 0.7808805009470199,
+      "fold_5_macro_f1": 0.7777096635530841,
+      "combo": "n=100, depth=nan"
+    },
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 100,
+      "max_depth": 10.0,
+      "mean_cv_macro_f1": 0.7795479381172296,
+      "std_cv_macro_f1": 0.0037811884722032687,
+      "fold_1_macro_f1": 0.7749922753773846,
+      "fold_2_macro_f1": 0.7781946709793542,
+      "fold_3_macro_f1": 0.7842010621141287,
+      "fold_4_macro_f1": 0.7826420185621961,
+      "fold_5_macro_f1": 0.7777096635530841,
+      "combo": "n=100, depth=10.0"
+    },
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 300,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 0.7806675398719198,
+      "std_cv_macro_f1": 0.0038061784066545424,
+      "fold_1_macro_f1": 0.7746723079558856,
+      "fold_2_macro_f1": 0.7814255864053917,
+      "fold_3_macro_f1": 0.7842010621141287,
+      "fold_4_macro_f1": 0.7834550266922773,
+      "fold_5_macro_f1": 0.7795837161919156,
+      "combo": "n=300, depth=nan"
+    },
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 300,
+      "max_depth": 10.0,
+      "mean_cv_macro_f1": 0.7799719662495168,
+      "std_cv_macro_f1": 0.003436953916999831,
+      "fold_1_macro_f1": 0.7746723079558856,
+      "fold_2_macro_f1": 0.7805222440386347,
+      "fold_3_macro_f1": 0.7842010621141287,
+      "fold_4_macro_f1": 0.7808805009470199,
+      "fold_5_macro_f1": 0.7795837161919156,
+      "combo": "n=300, depth=10.0"
+    },
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 300,
+      "max_depth": 20.0,
+      "mean_cv_macro_f1": 0.780164684937179,
+      "std_cv_macro_f1": 0.0033629134316796845,
+      "fold_1_macro_f1": 0.7746723079558856,
+      "fold_2_macro_f1": 0.7814255864053917,
+      "fold_3_macro_f1": 0.781686787440425,
+      "fold_4_macro_f1": 0.7834550266922773,
+      "fold_5_macro_f1": 0.7795837161919156,
+      "combo": "n=300, depth=20.0"
+    },
+    {
+      "branch": "Stable-FCI features",
+      "n_estimators": 500,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 0.780164684937179,
+      "std_cv_macro_f1": 0.0033629134316796845,
+      "fold_1_macro_f1": 0.7746723079558856,
+      "fold_2_macro_f1": 0.7814255864053917,
+      "fold_3_macro_f1": 0.781686787440425,
+      "fold_4_macro_f1": 0.7834550266922773,
+      "fold_5_macro_f1": 0.7795837161919156,
+      "combo": "n=500, depth=nan"
+    }
+  ],
+  "all_symptoms_cv": [
+    {
+      "branch": "All symptoms",
+      "n_estimators": 100,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=100, depth=nan"
+    },
+    {
+      "branch": "All symptoms",
+      "n_estimators": 100,
+      "max_depth": 10.0,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=100, depth=10.0"
+    },
+    {
+      "branch": "All symptoms",
+      "n_estimators": 300,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=300, depth=nan"
+    },
+    {
+      "branch": "All symptoms",
+      "n_estimators": 300,
+      "max_depth": 10.0,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=300, depth=10.0"
+    },
+    {
+      "branch": "All symptoms",
+      "n_estimators": 300,
+      "max_depth": 20.0,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=300, depth=20.0"
+    },
+    {
+      "branch": "All symptoms",
+      "n_estimators": 500,
+      "max_depth": NaN,
+      "mean_cv_macro_f1": 1.0,
+      "std_cv_macro_f1": 0.0,
+      "fold_1_macro_f1": 1.0,
+      "fold_2_macro_f1": 1.0,
+      "fold_3_macro_f1": 1.0,
+      "fold_4_macro_f1": 1.0,
+      "fold_5_macro_f1": 1.0,
+      "combo": "n=500, depth=nan"
+    }
+  ]
+}

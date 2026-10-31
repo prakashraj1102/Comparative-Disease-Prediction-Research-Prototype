@@ -1,0 +1,7 @@
+branch,n_estimators,max_depth,mean_cv_macro_f1,std_cv_macro_f1,fold_1_macro_f1,fold_2_macro_f1,fold_3_macro_f1,fold_4_macro_f1,fold_5_macro_f1
+All symptoms,100,,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+All symptoms,100,10.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+All symptoms,300,,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+All symptoms,300,10.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+All symptoms,300,20.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+All symptoms,500,,1.0,0.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "source": "Disease_Prediction_Application_Stage6_Analytics.zip",
+  "files": [
+    {
+      "path": ".streamlit/config.toml",
+      "size_bytes": 155,
+      "sha256": "db09cf0913228dac1a8b9689f0095f3354db813d2781c5a3137692a2de271a56"
+    },
+    {
+      "path": "app.py",
+      "size_bytes": 41109,
+      "sha256": "10a2676aedbf4e7b771d83dd315f50ad370c547069cc1ee9574fa011535b55b4"
+    },
+    {
+      "path": "artifact_manifest.json",
+      "size_bytes": 2524,
+      "sha256": "05899d93c8838b7c5aaa6f07e5d22c135fc37d3d2fee7d4dd3acd27721924be6"
+    },
+    {
+      "path": "artifacts/stable_fci/logistic_regression/stable_fci_logistic_regression.joblib",
+      "size_bytes": 14943,
+      "sha256": "b5c6fc20f5ef32c2571e7ade686ba318ded94ef22dd2f0163f54abb662bb4653"
+    },
+    {
+      "path": "artifacts/stable_fci/random_forest/stable_fci_random_forest.joblib",
+      "size_bytes": 16234641,
+      "sha256": "7f8be33ccd5695801f3a9299fbc0c8bf486c78a863bea9d0d72f0dff930272c9"
+    },
+    {
+      "path": "artifacts/stable_fci/xgboost/stable_fci_xgboost.joblib",
+      "size_bytes": 19636772,
+      "sha256": "751061026fcb1c197746e0ae16d3e91b6775310841ba21f728a6840fd26423fc"
+    },
+    {
+      "path": "artifacts/star_ci/logistic_regression/logistic_regression_model.joblib",
+      "size_bytes": 39199,
+      "sha256": "15ae446934e422649ca4667ec094a8f1a6df6bf9c361975b2c88f8bd1c6b34cd"
+    },
+    {
+      "path": "artifacts/star_ci/random_forest/random_forest_model_ci_selected.joblib",
+      "size_bytes": 21821473,
+      "sha256": "1be408c13bf4e6833f85fb7204cf5c004765a590718f4d5a69f54ce01b95943d"
+    },
+    {
+      "path": "artifacts/star_ci/xgboost/xgboost_model_ci_selected.joblib",
+      "size_bytes": 6277271,
+      "sha256": "1a7d4cd01a0b12838cbccfa05ac8de0dc7c5d03ef3c8e2a51d55c3d087809d00"
+    },
+    {
+      "path": "configurations/audit_summary.json",
+      "size_bytes": 5372,
+      "sha256": "0684cc37721536d7ade3f5db2840e443c036fa7b133aafc59470b677e37b3fd7"
+    },
+    {
+      "path": "configurations/disease_labels.json",
+      "size_bytes": 9241,
+      "sha256": "48dac5a89d40085f65fb27dccb088449d3f2cee92c46f01873b7a3f672930eaa"
+    },
+    {
+      "path": "configurations/master_symptoms.json",
+      "size_bytes": 15145,
+      "sha256": "0b8c61b5af92c7e094e9867ad7fca3a0ba61b63566c3e00d95f9cd5e9008934b"
+    },
+    {
+      "path": "configurations/model_registry.json",
+      "size_bytes": 1545,
+      "sha256": "6a9bcc4526dc2ab0b696ef9d57bf1a1e7889fd9dd7a300283db785b174c129d4"
+    },
+    {
+      "path": "configurations/stable_fci_features.json",
+      "size_bytes": 1263,
+      "sha256": "cb2788025cc81f2d60dc34a5997093cb0bd2e93350e6b5212ed861b12b55586b"
+    },
+    {
+      "path": "configurations/star_ci_features.json",
+      "size_bytes": 3052,
+      "sha256": "d8b61d7833f794f8354973702a65bc838ef67ee961f98d9d03fefcab812c4ba8"
+    },
+    {
+      "path": "core/__init__.py",
+      "size_bytes": 91,
+      "sha256": "e1d605eac548e86efc0409cdd50f51e1c39a8ed89c9dffc3fffa6d9be9270fe9"
+    },
+    {
+      "path": "core/config.py",
+      "size_bytes": 794,
+      "sha256": "0e6aa66d696e5e6701ee2cf2f386e5579011ecefffc3857f89c3f16c025c110f"
+    },
+    {
+      "path": "core/input_processor.py",
+      "size_bytes": 3560,
+      "sha256": "262f37cf4a12fb41c9f2f94e13382e849ba1a3dbf495e604a365d428e229b3da"
+    },
+    {
+      "path": "core/model_compat.py",
+      "size_bytes": 1251,
+      "sha256": "37184bd740230f89905b73d485b0bc4662bca5caf09feec116179542d5dcdb41"
+    },
+    {
+      "path": "core/model_loader.py",
+      "size_bytes": 6756,
+      "sha256": "b6834fa5c81b77589158e2ccc5b2badfbcfcd29c35edf8edb5e013edcaad93e0"
+    },
+    {
+      "path": "core/prediction_analytics.py",
+      "size_bytes": 4895,
+      "sha256": "8ed3e93731644b5245257018f32c33ee6d0f5002f3cf34b67e10f8041714e802"
+    },
+    {
+      "path": "core/prediction_engine.py",
+      "size_bytes": 4457,
+      "sha256": "fa45ad01bc41e661cad074689da7b61a2ec56726d9370b34f4d55d82a85a7f01"
+    },
+    {
+      "path": "core/result_comparison.py",
+      "size_bytes": 2088,
+      "sha256": "9edfd7f490ac55443a48bec6e09dc184652c0531b395ab4387eaf2131a80cf9f"
+    },
+    {
+      "path": "docs/application/APPLICATION_SETUP.md",
+      "size_bytes": 3286,
+      "sha256": "7267d5e7714a2e9506effb5ba7108e01f6d7780ddb59579914bcc133c9e3ecfe"
+    },
+    {
+      "path": "docs/application/MODEL_ARTIFACT_PROVENANCE.md",
+      "size_bytes": 1481,
+      "sha256": "e1913b4cbdcb3e7bb11dd6a9220c0a3e36fdada9447e92fcdd184161aefeb8e8"
+    },
+    {
+      "path": "docs/application/STAGE4_VALIDATION_GUIDE.md",
+      "size_bytes": 4241,
+      "sha256": "198b3640b5ee1863d34a2e9227d5c1ca4bbe62365c92206c0d78457fc34c4795"
+    },
+    {
+      "path": "docs/application/STAGE6_ANALYTICS_REPORT.md",
+      "size_bytes": 3559,
+      "sha256": "15c759e35a8f1848d18cfc42fea64aea5cee1b6cbafd408b40cdfd66a3bed516"
+    },
+    {
+      "path": "docs/application/VALIDATION_RESULTS.md",
+      "size_bytes": 2209,
+      "sha256": "c0bc5e4fad070828ab64d53c8c7d00f0b14cc095be4d599158a39ceb5de9d95b"
+    },
+    {
+      "path": "frontend/__init__.py",
+      "size_bytes": 79,
+      "sha256": "5efe7b09ef21f0f48c433f02a46b60052ef9dca8a7ce2c4d884234e910312bad"
+    },
+    {
+      "path": "reference_reports/stable_fci_logistic_regression_summary.json",
+      "size_bytes": 3232,
+      "sha256": "7dec8a00910f284a554585363060c102293a38934ada66d853da9b056fe73369"
+    },
+    {
+      "path": "reference_reports/stable_fci_model_comparison_summary.csv",
+      "size_bytes": 916,
+      "sha256": "5f4ba42051a35d7a69da4e24bff60a72f863618597118721ffd33a0355092543"
+    },
+    {
+      "path": "reference_reports/stable_fci_model_comparison_summarystablefcidepth10.csv",
+      "size_bytes": 722,
+      "sha256": "6c28695b1fb556ad827c716bd4e68919092fd4fac29ee975b16e7d071d0f5e95"
+    },
+    {
+      "path": "reference_reports/stable_fci_random_forest_summary.json",
+      "size_bytes": 3776,
+      "sha256": "6d19151227cd2091a81bf41a63f370ff738a0a2f8a8556529ebd11d3c7dfd366"
+    },
+    {
+      "path": "reference_reports/stable_fci_train_test_split.json",
+      "size_bytes": 2199,
+      "sha256": "067276446ae3e61681e0759d847d19bd4cf5538d8f503aa81ae0407620f41347"
+    },
+    {
+      "path": "reference_reports/stable_fci_xgboost_summary.json",
+      "size_bytes": 3996,
+      "sha256": "41f57b6f3b9eae76340f31b54edf0b6af4ff49c9594dc6f3195103bac802e3e6"
+    },
+    {
+      "path": "reference_reports/star_ci_all_models_comparison.csv",
+      "size_bytes": 1496,
+      "sha256": "671bd64e55f2921361c3b79961d5e75677f2833f1f84b41d77117afefef8873f"
+    },
+    {
+      "path": "reference_reports/star_ci_experiment_config.txt",
+      "size_bytes": 727,
+      "sha256": "9ea950fef54f17378d56d23fa57a5252d7ded669d271cc2391c9ffbf7f1062f4"
+    },
+    {
+      "path": "reference_reports/star_ci_metrics_summary.txt",
+      "size_bytes": 550,
+      "sha256": "73bb474769b873edcd395aa31df7bdd63f26821f968e5eafbf02fc9e500f95a5"
+    },
+    {
+      "path": "reference_reports/star_ci_reference_prediction_probabilities.csv",
+      "size_bytes": 42290,
+      "sha256": "06d36c76fc47aa430a172a63de47769ca4ccc812591f784e134beb6076952605"
+    },
+    {
+      "path": "reference_reports/star_ci_sample0_reference.json",
+      "size_bytes": 3582,
+      "sha256": "7a853e7a7f24c150a3d060df4acb59276060a7456c13c313c0bdf245edaf3408"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 339,
+      "sha256": "461290f32b6e343de9040ceb3d68cfc284813c64c0f8f1621f3c1c288a31217c"
+    },
+    {
+      "path": "scripts/validate_stage4.py",
+      "size_bytes": 24616,
+      "sha256": "50d2671b434c8e1abb6d48a1779f237a14e747e88187a3bccb690554203c5376"
+    },
+    {
+      "path": "scripts/verify_configuration.py",
+      "size_bytes": 2274,
+      "sha256": "4ef6cde46fa70509b6463e79b60c3bb998a7496f07887e66ed89c3c8501ac7e8"
+    },
+    {
+      "path": "scripts/verify_models.py",
+      "size_bytes": 827,
+      "sha256": "3153d170c1fbbe87a8f4fde09cc99a6bc5604c1b9efc67efe43643e174f9e05b"
+    },
+    {
+      "path": "tests/test_configuration_and_inputs.py",
+      "size_bytes": 3217,
+      "sha256": "8a9d1aa496c484d968f048ca976e19a96701b73a2a4d2c13184d0965c8cccf64"
+    },
+    {
+      "path": "tests/test_model_loading.py",
+      "size_bytes": 999,
+      "sha256": "0e1a7a09e2b55c437e4be914cb26e8984611f911aa2f196168966663e668f59d"
+    },
+    {
+      "path": "tests/test_prediction_analytics.py",
+      "size_bytes": 2926,
+      "sha256": "2e8823c526c3c953424234c682e763d434fc9f83f425be435571bcf480641c2f"
+    },
+    {
+      "path": "tests/test_prediction_engine.py",
+      "size_bytes": 2686,
+      "sha256": "f4a28c921fb5d89c66e9391aadb458f870af5d7ebc4fd5cf3b8b1b9dcc28da1e"
+    },
+    {
+      "path": "tests/test_result_comparison.py",
+      "size_bytes": 1323,
+      "sha256": "a6cc2506461c38b939fcb1442d411a4a88bf8d34d9a8048741ea0558ab152fc6"
+    },
+    {
+      "path": "tests/test_stage4_reference_assets.py",
+      "size_bytes": 1796,
+      "sha256": "bd7f61e5da076d8a9bd08e77f5b75cdf56ce49514235f8ac52cfbc1ea8d25254"
+    },
+    {
+      "path": "validation_data/README.md",
+      "size_bytes": 507,
+      "sha256": "6a783f6865abe4c900035b52ce04e83bc3b805e4dabf86ffcbdda361fe6a28d8"
+    }
+  ]
+}

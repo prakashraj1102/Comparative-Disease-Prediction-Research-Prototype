@@ -1,0 +1,61 @@
+{
+  "manifest_version": "1.0",
+  "project_stage": "Stage 6 - Validated Comparative Prediction Application",
+  "training_performed": false,
+  "causal_discovery_rerun": false,
+  "required_runtime": {
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.1.3"
+  },
+  "validated_counts": {
+    "master_symptoms": 132,
+    "stable_fci_features": 37,
+    "star_ci_features": 106,
+    "disease_classes": 41
+  },
+  "models": [
+    {
+      "path": "artifacts/stable_fci/logistic_regression/stable_fci_logistic_regression.joblib",
+      "size_bytes": 14943,
+      "sha256": "b5c6fc20f5ef32c2571e7ade686ba318ded94ef22dd2f0163f54abb662bb4653",
+      "source_archive": "Stable FCI All Model 02 compressed.zip",
+      "copied_without_model_modification": true
+    },
+    {
+      "path": "artifacts/stable_fci/random_forest/stable_fci_random_forest.joblib",
+      "size_bytes": 16234641,
+      "sha256": "7f8be33ccd5695801f3a9299fbc0c8bf486c78a863bea9d0d72f0dff930272c9",
+      "source_archive": "Stable FCI All Model 02 compressed.zip",
+      "copied_without_model_modification": true
+    },
+    {
+      "path": "artifacts/stable_fci/xgboost/stable_fci_xgboost.joblib",
+      "size_bytes": 19636772,
+      "sha256": "751061026fcb1c197746e0ae16d3e91b6775310841ba21f728a6840fd26423fc",
+      "source_archive": "Stable FCI All Model 02 compressed.zip",
+      "copied_without_model_modification": true
+    },
+    {
+      "path": "artifacts/star_ci/logistic_regression/logistic_regression_model.joblib",
+      "size_bytes": 39199,
+      "sha256": "15ae446934e422649ca4667ec094a8f1a6df6bf9c361975b2c88f8bd1c6b34cd",
+      "source_archive": "Star_All_Three_Model compressed.zip",
+      "copied_without_model_modification": true
+    },
+    {
+      "path": "artifacts/star_ci/random_forest/random_forest_model_ci_selected.joblib",
+      "size_bytes": 21821473,
+      "sha256": "1be408c13bf4e6833f85fb7204cf5c004765a590718f4d5a69f54ce01b95943d",
+      "source_archive": "Star_All_Three_Model compressed.zip",
+      "copied_without_model_modification": true
+    },
+    {
+      "path": "artifacts/star_ci/xgboost/xgboost_model_ci_selected.joblib",
+      "size_bytes": 6277271,
+      "sha256": "1a7d4cd01a0b12838cbccfa05ac8de0dc7c5d03ef3c8e2a51d55c3d087809d00",
+      "source_archive": "Star_All_Three_Model compressed.zip",
+      "copied_without_model_modification": true
+    }
+  ],
+  "validation_note": "The six saved models passed Stage 4 inference validation in the pinned environment. No training or causal discovery is performed by the application."
+}

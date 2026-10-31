@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Automated testing
+pytest==9.2.0
+
+# Notebook integrity verification
+nbformat==5.11.1

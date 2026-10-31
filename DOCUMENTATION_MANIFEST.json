@@ -1,0 +1,81 @@
+{
+  "package": "Documentation Publication Pack",
+  "version": "1.0",
+  "files": [
+    {
+      "path": "data/README.md",
+      "size_bytes": 1777,
+      "sha256": "d1768ef6d4fbc780df4678348f017892bb66076c5935bdeeafbf9ff6cf947ecf"
+    },
+    {
+      "path": "docs/APPLICATION_GUIDE.md",
+      "size_bytes": 2324,
+      "sha256": "0567c39222b090878088d023e12b9806f9a9513cc4da515a457440f44e1fdda5"
+    },
+    {
+      "path": "docs/DATASET_DESCRIPTION.md",
+      "size_bytes": 3002,
+      "sha256": "0a0db2b7966e7b6f589f5672f76206645af7f923727f01e696005319c64b7655"
+    },
+    {
+      "path": "docs/EXPERIMENTAL_RESULTS.md",
+      "size_bytes": 4296,
+      "sha256": "7caed14f3dd2889c88aa9e6f6f2cab081a8c6d8ce78f3b020204db9020437f0c"
+    },
+    {
+      "path": "docs/FEATURE_SELECTION_COMPARISON.md",
+      "size_bytes": 2503,
+      "sha256": "23719ecd2705ad019057d0419ba824297634c8f197c083caecafb9b0cee549f8"
+    },
+    {
+      "path": "docs/LIMITATIONS_AND_FUTURE_WORK.md",
+      "size_bytes": 4413,
+      "sha256": "fa170e741ccfb07c8285b56afd2dc584802dfbe5162e0a5e91ab0cd67408aa5d"
+    },
+    {
+      "path": "docs/PROJECT_OVERVIEW.md",
+      "size_bytes": 3757,
+      "sha256": "711f61fd2fbad8481bdeb1e4429b645edf463dcc99a84f12117665784180754c"
+    },
+    {
+      "path": "docs/README.md",
+      "size_bytes": 1706,
+      "sha256": "45c07644294d927e278db9f9f9b2743b8e87c448170c654ff593155063a73e5a"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "size_bytes": 3212,
+      "sha256": "130d49327618c51f3350adc4591eae0fc2e0ed12e852a0c281fc07019f81a7cd"
+    },
+    {
+      "path": "docs/SYSTEM_ARCHITECTURE.md",
+      "size_bytes": 3775,
+      "sha256": "a518ead0856d72e54cb7a6f1e17e848dfcad8f5d91c25c953b09cae68b9d0bfd"
+    },
+    {
+      "path": "research/methodology/ML_EVALUATION_PROTOCOLS.md",
+      "size_bytes": 2789,
+      "sha256": "b830460193c2b50f8ea535307af4ee23ff78e744dfc556068d06e97fcf346e97"
+    },
+    {
+      "path": "research/methodology/STABLE_FCI_METHODOLOGY.md",
+      "size_bytes": 5552,
+      "sha256": "54c631d635a2963629b117325b63be8f5e4eae8c9ff599c484c024a16e964232"
+    },
+    {
+      "path": "research/methodology/STAR_CI_SELECTED_METHODOLOGY.md",
+      "size_bytes": 6076,
+      "sha256": "baa389705ddd8e64b604261047dcab118b19502b6f44c133e0db775b80db75c4"
+    },
+    {
+      "path": "screenshots/README.md",
+      "size_bytes": 748,
+      "sha256": "c8c8fc1e4a16678eef2c918a983460cd79ca51f2dff9cb4d5abfc339503b47ad"
+    },
+    {
+      "path": "scripts/verify_documentation_pack.py",
+      "size_bytes": 2085,
+      "sha256": "959b3de80529ee7df147ffe836f8cd49bc21a5fb1903e487995eb5df1a8d7463"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+node1,node2,endpoint1,endpoint2,node1_type,node2_type
+disease_(vertigo) Paroymsal  Positional Vertigo,spinning_movements,TAIL,ARROW,disease,symptom
+disease_(vertigo) Paroymsal  Positional Vertigo,unsteadiness,TAIL,ARROW,disease,symptom
+disease_Allergy,shivering,TAIL,ARROW,disease,symptom
+disease_Allergy,watering_from_eyes,TAIL,ARROW,disease,symptom
+disease_Arthritis,muscle_weakness,TAIL,ARROW,disease,symptom
+disease_Arthritis,stiff_neck,TAIL,ARROW,disease,symptom
+disease_Arthritis,movement_stiffness,TAIL,ARROW,disease,symptom
+disease_Bronchial Asthma,breathlessness,TAIL,ARROW,disease,symptom
+disease_Bronchial Asthma,family_history,TAIL,ARROW,disease,symptom
+disease_Bronchial Asthma,mucoid_sputum,TAIL,ARROW,disease,symptom
+disease_Chicken pox,swelled_lymph_nodes,TAIL,ARROW,disease,symptom
+disease_Chicken pox,red_spots_over_body,TAIL,ARROW,disease,symptom
+disease_Chronic cholestasis,itching,TAIL,ARROW,disease,symptom
+disease_Dengue,pain_behind_the_eyes,TAIL,ARROW,disease,symptom
+disease_Fungal infection,nodal_skin_eruptions,TAIL,ARROW,disease,symptom
+disease_Fungal infection,dischromic _patches,TAIL,ARROW,disease,symptom
+disease_Gastroenteritis,sunken_eyes,TAIL,ARROW,disease,symptom
+disease_Gastroenteritis,dehydration,TAIL,ARROW,disease,symptom
+disease_Heart attack,high_fever,TAIL,ARROW,disease,symptom
+disease_Heart attack,breathlessness,TAIL,ARROW,disease,symptom
+disease_Heart attack,sweating,TAIL,ARROW,disease,symptom
+disease_Heart attack,chest_pain,TAIL,ARROW,disease,symptom
+disease_Hepatitis C,family_history,TAIL,ARROW,disease,symptom
+disease_Hepatitis D,joint_pain,TAIL,ARROW,disease,symptom
+disease_Hepatitis D,fatigue,TAIL,ARROW,disease,symptom
+disease_Hepatitis D,high_fever,TAIL,ARROW,disease,symptom
+disease_Hypertension ,lack_of_concentration,TAIL,ARROW,disease,symptom
+disease_Jaundice,itching,TAIL,ARROW,disease,symptom
+disease_Jaundice,weight_loss,TAIL,ARROW,disease,symptom
+disease_Jaundice,high_fever,TAIL,ARROW,disease,symptom
+disease_Jaundice,dark_urine,TAIL,ARROW,disease,symptom
+disease_Malaria,fatigue,TAIL,ARROW,disease,symptom
+disease_Malaria,sweating,TAIL,ARROW,disease,symptom
+disease_Malaria,muscle_pain,TAIL,ARROW,disease,symptom
+disease_Osteoarthristis,knee_pain,TAIL,ARROW,disease,symptom
+disease_Osteoarthristis,hip_joint_pain,TAIL,ARROW,disease,symptom
+disease_Paralysis (brain hemorrhage),weakness_of_one_body_side,TAIL,ARROW,disease,symptom
+disease_Paralysis (brain hemorrhage),altered_sensorium,TAIL,ARROW,disease,symptom
+disease_Peptic ulcer diseae,passage_of_gases,TAIL,ARROW,disease,symptom
+disease_Peptic ulcer diseae,internal_itching,TAIL,ARROW,disease,symptom
+disease_Pneumonia,rusty_sputum,TAIL,ARROW,disease,symptom
+disease_Tuberculosis,blood_in_sputum,TAIL,ARROW,disease,symptom
+disease_Typhoid,toxic_look_(typhos),TAIL,ARROW,disease,symptom
+disease_Typhoid,belly_pain,TAIL,ARROW,disease,symptom
+itching,skin_rash,ARROW,ARROW,symptom,symptom
+itching,chills,ARROW,ARROW,symptom,symptom
+itching,joint_pain,ARROW,ARROW,symptom,symptom
+itching,malaise,ARROW,ARROW,symptom,symptom
+itching,chest_pain,ARROW,ARROW,symptom,symptom
+skin_rash,yellowish_skin,ARROW,ARROW,symptom,symptom
+skin_rash,diarrhoea,ARROW,ARROW,symptom,symptom
+skin_rash,chest_pain,ARROW,ARROW,symptom,symptom
+skin_rash,dizziness,ARROW,ARROW,symptom,symptom
+continuous_sneezing,vomiting,ARROW,ARROW,symptom,symptom
+continuous_sneezing,muscle_pain,ARROW,ARROW,symptom,symptom
+chills,high_fever,ARROW,ARROW,symptom,symptom
+chills,yellowish_skin,ARROW,ARROW,symptom,symptom
+chills,diarrhoea,ARROW,ARROW,symptom,symptom
+chills,loss_of_balance,ARROW,ARROW,symptom,symptom
+chills,muscle_pain,ARROW,ARROW,symptom,symptom
+joint_pain,dark_urine,ARROW,ARROW,symptom,symptom
+joint_pain,nausea,ARROW,ARROW,symptom,symptom
+joint_pain,loss_of_appetite,ARROW,ARROW,symptom,symptom
+joint_pain,chest_pain,ARROW,ARROW,symptom,symptom
+joint_pain,muscle_pain,ARROW,ARROW,symptom,symptom
+vomiting,nausea,ARROW,ARROW,symptom,symptom
+vomiting,loss_of_appetite,ARROW,ARROW,symptom,symptom
+vomiting,abdominal_pain,TAIL,ARROW,symptom,symptom
+vomiting,diarrhoea,ARROW,ARROW,symptom,symptom
+vomiting,fast_heart_rate,ARROW,ARROW,symptom,symptom
+vomiting,dizziness,ARROW,ARROW,symptom,symptom
+vomiting,obesity,ARROW,ARROW,symptom,symptom
+fatigue,weight_loss,ARROW,ARROW,symptom,symptom
+fatigue,high_fever,ARROW,ARROW,symptom,symptom
+fatigue,malaise,ARROW,ARROW,symptom,symptom
+fatigue,fast_heart_rate,ARROW,ARROW,symptom,symptom
+fatigue,obesity,ARROW,ARROW,symptom,symptom
+fatigue,loss_of_balance,ARROW,ARROW,symptom,symptom
+mood_swings,abnormal_menstruation,CIRCLE,CIRCLE,symptom,symptom
+restlessness,weight_loss,CIRCLE,ARROW,symptom,symptom
+restlessness,excessive_hunger,CIRCLE,ARROW,symptom,symptom
+lethargy,malaise,ARROW,ARROW,symptom,symptom
+blurred_and_distorted_vision,lethargy,CIRCLE,ARROW,symptom,symptom
+lethargy,chest_pain,ARROW,ARROW,symptom,symptom
+lethargy,dizziness,ARROW,ARROW,symptom,symptom
+lethargy,irritability,ARROW,ARROW,symptom,symptom
+cough,high_fever,CIRCLE,ARROW,symptom,symptom
+high_fever,mild_fever,ARROW,ARROW,symptom,symptom
+high_fever,dizziness,ARROW,ARROW,symptom,symptom
+high_fever,obesity,ARROW,ARROW,symptom,symptom
+high_fever,loss_of_balance,ARROW,ARROW,symptom,symptom
+breathlessness,sweating,ARROW,ARROW,symptom,symptom
+breathlessness,headache,ARROW,ARROW,symptom,symptom
+sweating,fast_heart_rate,ARROW,ARROW,symptom,symptom
+sweating,irritability,ARROW,ARROW,symptom,symptom
+headache,yellowish_skin,ARROW,ARROW,symptom,symptom
+headache,nausea,ARROW,ARROW,symptom,symptom
+headache,yellowing_of_eyes,ARROW,ARROW,symptom,symptom
+headache,obesity,ARROW,ARROW,symptom,symptom
+headache,loss_of_balance,ARROW,ARROW,symptom,symptom
+yellowish_skin,abdominal_pain,ARROW,ARROW,symptom,symptom
+yellowish_skin,yellowing_of_eyes,ARROW,ARROW,symptom,symptom
+dark_urine,abdominal_pain,TAIL,ARROW,symptom,symptom
+nausea,abdominal_pain,ARROW,ARROW,symptom,symptom
+nausea,yellowing_of_eyes,ARROW,ARROW,symptom,symptom
+nausea,chest_pain,ARROW,ARROW,symptom,symptom
+nausea,muscle_pain,ARROW,ARROW,symptom,symptom
+loss_of_appetite,abdominal_pain,ARROW,ARROW,symptom,symptom
+loss_of_appetite,yellowing_of_eyes,ARROW,ARROW,symptom,symptom
+abdominal_pain,chest_pain,ARROW,ARROW,symptom,symptom
+abdominal_pain,loss_of_balance,ARROW,ARROW,symptom,symptom
+diarrhoea,chest_pain,ARROW,ARROW,symptom,symptom
+diarrhoea,loss_of_balance,ARROW,ARROW,symptom,symptom
+mild_fever,swelled_lymph_nodes,ARROW,ARROW,symptom,symptom
+mild_fever,muscle_pain,ARROW,ARROW,symptom,symptom
+yellowing_of_eyes,malaise,ARROW,ARROW,symptom,symptom
+swelled_lymph_nodes,phlegm,ARROW,ARROW,symptom,symptom
+blurred_and_distorted_vision,excessive_hunger,CIRCLE,ARROW,symptom,symptom
+blurred_and_distorted_vision,irritability,CIRCLE,ARROW,symptom,symptom
+phlegm,chest_pain,TAIL,ARROW,symptom,symptom
+fast_heart_rate,phlegm,TAIL,ARROW,symptom,symptom
+excessive_hunger,irritability,ARROW,ARROW,symptom,symptom
+abnormal_menstruation,irritability,CIRCLE,ARROW,symptom,symptom

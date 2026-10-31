@@ -1,0 +1,769 @@
+{
+  "files": [
+    {
+      "path": "research/results/README.md",
+      "size_bytes": 3074,
+      "sha256": "2a21c1ec5c644a726d91435624b3a2b4353bfa1ec37d9b93fe6cd6bc33ad7ad8"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/all_edges.csv",
+      "size_bytes": 6951,
+      "sha256": "24ae6c1e0c90adb51eb3c030493e692096489b5d0634a7dc2d3e2378c9bfa74b"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/bidirected_edges.csv",
+      "size_bytes": 3443,
+      "sha256": "223656516b5e15497f7f1bddbb6ea65f28b4d768bb737636a4531e2ad0d56e47"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/ci_tests.csv.gz",
+      "size_bytes": 54686755,
+      "sha256": "d4b2a863a6051dae1232339646b24e09f80c162f115e5395337945e14790f776"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/complete_graph.pdf",
+      "size_bytes": 80765,
+      "sha256": "c53e5db62618374daf81c7e139b3b2f099523fe5f73cd101143da8c217ae7fb7"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/directed_edges.csv",
+      "size_bytes": 4788,
+      "sha256": "7e9b83193540c33f23912363ce8896ab58a398411c053d0d2625ee43f64d21d7"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/final_pag.pdf",
+      "size_bytes": 46148,
+      "sha256": "07de037f87473d8e740a0ddbe411ec5694b71357e3357a6f8c41fb88c464e7e9"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/possible_dsep_graph.pdf",
+      "size_bytes": 47248,
+      "sha256": "6142c8cc249c8ed5384ac47ea8bd8a7b35b44ee3a229033ecd81a5f5de261637"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/sepsets.json",
+      "size_bytes": 3890044,
+      "sha256": "e22cc19b8711f643cb4e6d65417e1a1ace161b48711856136865abc29f5afd78"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/stable_fci_skeleton.pdf",
+      "size_bytes": 29031,
+      "sha256": "86fa98170455652adad0ef0867ccfdca10ec60249f9676cdf2487f877961c97e"
+    },
+    {
+      "path": "research/results/stable_fci/causal_discovery/uncertain_edges.csv",
+      "size_bytes": 554,
+      "sha256": "7ef2254cd92d4d5ce3ba4c7a6a9217b46c5728165fee641f5be33cbbf0f1613e"
+    },
+    {
+      "path": "research/results/stable_fci/experiment_metadata/data_summary.json",
+      "size_bytes": 4352,
+      "sha256": "323e307a1276d64ccaef577fcfe5661be608d9a8282c69975be999baaf8ff856"
+    },
+    {
+      "path": "research/results/stable_fci/experiment_metadata/train_test_split.json",
+      "size_bytes": 2199,
+      "sha256": "067276446ae3e61681e0759d847d19bd4cf5538d8f503aa81ae0407620f41347"
+    },
+    {
+      "path": "research/results/stable_fci/feature_selection/stable_fci_selected_symptoms.csv",
+      "size_bytes": 563,
+      "sha256": "85d2eb4dd6531a29a4aa23ee0868120fccdbbdab4318e0a66d46d5b75ba0505e"
+    },
+    {
+      "path": "research/results/stable_fci/model_comparison/model_comparison_barplot.pdf",
+      "size_bytes": 17143,
+      "sha256": "354199e1d336cec1e604d30ef00436a266ad3d6a00920126a13f274a8d185bc2"
+    },
+    {
+      "path": "research/results/stable_fci/model_comparison/model_comparison_summary.csv",
+      "size_bytes": 916,
+      "sha256": "5f4ba42051a35d7a69da4e24bff60a72f863618597118721ffd33a0355092543"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/all_symptoms_logistic_cv_results.csv",
+      "size_bytes": 491,
+      "sha256": "1ddb1e82e1fdcc1c12018eb11c2db3bb6bc9b8ea06404eb9a4c10127b4a2bb19"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/all_symptoms_test_confusion_matrix.pdf",
+      "size_bytes": 32237,
+      "sha256": "30defe81af22db1243b0ef959318bbf628befd7d9c79a144e96862e9ac625cbc"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/all_symptoms_train_confusion_matrix.pdf",
+      "size_bytes": 33086,
+      "sha256": "f4fea7104069f483e35361ec51ec4d7152e73c526e664983afd8f3f74329e737"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/depth10_stable_fci_vs_all_barplot.pdf",
+      "size_bytes": 18822,
+      "sha256": "d54f71978f38ec0c624820cba8b8d89c412cf5a11e2f02acf8b220ba0a02d345"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/fci_vs_no_fci_test_comparison.csv",
+      "size_bytes": 584,
+      "sha256": "0aabcdf7af06972b6e390876836e97c9eaabba810d3e3844f1c7e3897ebb69f7"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/logistic_C_tuning.pdf",
+      "size_bytes": 19820,
+      "sha256": "0b3f6fb357b4612e2d7d7e5936b3aebef00496f098762acaaa334bbcc1bae42d"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/logistic_regression_coefficients.csv",
+      "size_bytes": 592363,
+      "sha256": "9d29a2b8c1a58b1fa178ebe0df8d6d4c887fb81f71cd057d8473bca34dbe122d"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/logistic_regression_cv_results.json",
+      "size_bytes": 4092,
+      "sha256": "9e964f6a194b6262caed8301dc01b093451865b3751ba70d000ca13601f492a9"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/logistic_regression_summary.json",
+      "size_bytes": 3232,
+      "sha256": "7dec8a00910f284a554585363060c102293a38934ada66d853da9b056fe73369"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/stable_fci_logistic_cv_results.csv",
+      "size_bytes": 1079,
+      "sha256": "322957a24c83b884c2adc1123abf30e59e2d88ebdba001745e25c989a0e35442"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/stable_fci_test_confusion_matrix.pdf",
+      "size_bytes": 34665,
+      "sha256": "7a77ca8acb204baa1e3160dd95669ca16d77df1c51b3b95d3a0c176808d40783"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/stable_fci_train_confusion_matrix.pdf",
+      "size_bytes": 36316,
+      "sha256": "3ede3e7ca3cfe47c11cba76c8579ea568e7393913b407746361b1fc3dc1a2716"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/logistic_regression/train_test_generalization_comparison.csv",
+      "size_bytes": 876,
+      "sha256": "14a86771a701224e0bb77a8cc9db2666d87cc7ab95ae32c844eef16e956bf576"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/all_symptoms_random_forest_cv_results.csv",
+      "size_bytes": 431,
+      "sha256": "0e9a8711334ca09ba5d9eb9710a8ba9d39d713bae1b9b4a1fb0d516efb51d4f3"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/all_symptoms_test_confusion_matrix.pdf",
+      "size_bytes": 32477,
+      "sha256": "e81d0fb132fb893b2c8b69d048e95309394e8653915646e1005162d70bc1e9db"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/all_symptoms_train_confusion_matrix.pdf",
+      "size_bytes": 33333,
+      "sha256": "d271d90a1ff27cbbb3f763b98f3cbc441ddc73428d8c93f9d4b82ae3cfd91b70"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/depth10_stable_fci_vs_all_barplot.pdf",
+      "size_bytes": 17804,
+      "sha256": "15ca2bd65b9fc03728f6f49406cced06bdbf64f481c973fb39eb08c38a3082cd"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/fci_vs_no_fci_test_comparison.csv",
+      "size_bytes": 583,
+      "sha256": "886d701c43fce891d12fb580eeb9af3a2ebbba4562811cd8bd419c97c39f8c26"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/random_forest_cv_results.json",
+      "size_bytes": 4843,
+      "sha256": "fc2b3252b78adf0c10f95311dfdb0d04de715432d9e1bfa8f49345277b851e8a"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/random_forest_feature_importances.csv",
+      "size_bytes": 8600,
+      "sha256": "5d7b9f7841f11679c5581fdb7866903f934c5133b11730c83f2ad1f46f70ab01"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/random_forest_summary.json",
+      "size_bytes": 3776,
+      "sha256": "6d19151227cd2091a81bf41a63f370ff738a0a2f8a8556529ebd11d3c7dfd366"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/random_forest_tuning.pdf",
+      "size_bytes": 16586,
+      "sha256": "d122889a63ee43df2303438bb1841f6ef4926dcac797516aab7b01566a173bae"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/stable_fci_random_forest_cv_results.csv",
+      "size_bytes": 1116,
+      "sha256": "13b881d3b87b7d4056d52ce7b3f87c2278b1378d16845f5eaff29852574d70f2"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/stable_fci_test_confusion_matrix.pdf",
+      "size_bytes": 34701,
+      "sha256": "95cfb59585cb328282c14a5b167f896df5737a2080954aa29e25bd46002ad971"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/stable_fci_train_confusion_matrix.pdf",
+      "size_bytes": 36338,
+      "sha256": "4e3e72193ef721ae92d133dd7746f02559aa70295a2cd400003e12d1c33a6334"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/random_forest/train_test_generalization_comparison.csv",
+      "size_bytes": 877,
+      "sha256": "eae3b3bdb07b67d4b2cc8e121fe7bde24f974b337616d014f4dbc9151506cfbe"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/all_symptoms_test_confusion_matrix.pdf",
+      "size_bytes": 32654,
+      "sha256": "49721f64e81e6c27dc1d623b5ee3d82a34e9e1ce4a994c83bc822bbf053eefb8"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/all_symptoms_train_confusion_matrix.pdf",
+      "size_bytes": 33507,
+      "sha256": "8939ba73409f6a58576a9e0c634a41412fe95bc01acc9aecf979bfd21c2ecc78"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/all_symptoms_xgboost_cv_results.csv",
+      "size_bytes": 466,
+      "sha256": "e97ca675786a6596d52c932fcfd1f9b5cad1a66bd24497b6333d230d213e2cfd"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/depth10_stable_fci_vs_all_barplot.pdf",
+      "size_bytes": 19073,
+      "sha256": "038165f53315a39c3a471c59e15f9c7474d7d5e076436ad8cdb8429192eb1c05"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/fci_vs_no_fci_test_comparison.csv",
+      "size_bytes": 584,
+      "sha256": "06340ef028f7d83f0fd4b357e90e541546c1fea2f36f9e68843f748e728935cd"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/stable_fci_test_confusion_matrix.pdf",
+      "size_bytes": 34902,
+      "sha256": "339423ed23991f4fcb3faf98ae98fed63eec3fd732c14f965ffe8e02c06a60c9"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/stable_fci_train_confusion_matrix.pdf",
+      "size_bytes": 36529,
+      "sha256": "cc571ad6090ee614adb3ded97cea88e212c337ac70a92994b8f8b4d5ed19c3b6"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/stable_fci_xgboost_cv_results.csv",
+      "size_bytes": 1144,
+      "sha256": "c8c9fa721537fe6f8a34cbd07a353090eaa4c030bdc191c739ecb2caf6976ff6"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/train_test_generalization_comparison.csv",
+      "size_bytes": 875,
+      "sha256": "7ae02ae34819484542c39d293cbfaa0a925ae00120adbfc9d3ab41ddc4454380"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/xgboost_cv_results.json",
+      "size_bytes": 5172,
+      "sha256": "26ec70a123e0c7019194406fa0cf34591c36fb22f254912b5d8f3761df5c06ac"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/xgboost_feature_importances.csv",
+      "size_bytes": 8513,
+      "sha256": "a0843d2931fc9fb3ceb6cf8489dafe1c5efce623bbc077720d0508d4d0dbe0b6"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/xgboost_summary.json",
+      "size_bytes": 3996,
+      "sha256": "41f57b6f3b9eae76340f31b54edf0b6af4ff49c9594dc6f3195103bac802e3e6"
+    },
+    {
+      "path": "research/results/stable_fci/model_evaluation/xgboost/xgboost_tuning.pdf",
+      "size_bytes": 17326,
+      "sha256": "8be2a09df2363b91b66b1c32790f2edef7cc3754f591b97493097e0dbf2fb5b7"
+    },
+    {
+      "path": "research/results/star_ci/ci_screening/ci_screening_detailed_results.csv.gz",
+      "size_bytes": 899376,
+      "sha256": "b38e669b098f9e0087b39b92f299184cf530edf531fe393ec9f23eb433db96cf"
+    },
+    {
+      "path": "research/results/star_ci/ci_screening/ci_screening_summary.csv",
+      "size_bytes": 476902,
+      "sha256": "9ce00db53a058c8c830deaa514c101c7b118da6c48070a3b1ecb89d28f8d0cbc"
+    },
+    {
+      "path": "research/results/star_ci/experiment_metadata/experiment_config.txt",
+      "size_bytes": 727,
+      "sha256": "9ea950fef54f17378d56d23fa57a5252d7ded669d271cc2391c9ffbf7f1062f4"
+    },
+    {
+      "path": "research/results/star_ci/experiment_metadata/metrics_summary.txt",
+      "size_bytes": 550,
+      "sha256": "73bb474769b873edcd395aa31df7bdd63f26821f968e5eafbf02fc9e500f95a5"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_(vertigo)_Paroymsal__Positional_Vertigo_star_graph.pdf",
+      "size_bytes": 12538,
+      "sha256": "b5889903bd77684c094cd976af52bb12ec038f1fbe89d03f7b6cd700057e7c7c"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_AIDS_star_graph.pdf",
+      "size_bytes": 12973,
+      "sha256": "1caf18d0d702b7965cfa640aaeb3c185781a875d5e100155268c2d0c49b99adf"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Acne_star_graph.pdf",
+      "size_bytes": 12319,
+      "sha256": "11c998fb13edceb4ae0de9998bf6adb2a1b81fcc51b429861e07537be84064a9"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Alcoholic_hepatitis_star_graph.pdf",
+      "size_bytes": 13024,
+      "sha256": "0852210e8749acb05e9f6ef5d8ecb62d8822feaf66a586cc9488c2a237b52dcd"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Allergy_star_graph.pdf",
+      "size_bytes": 12981,
+      "sha256": "08345dba6d3b59a79757aa893113bf2e50822f792ce59253a9963ae80a8d7b04"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Arthritis_star_graph.pdf",
+      "size_bytes": 11242,
+      "sha256": "f5d004bbb2298538bd27ace947e45e43385754dff9aea4100aef9c32bcd61c13"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Bronchial_Asthma_star_graph.pdf",
+      "size_bytes": 11879,
+      "sha256": "1f842906488e69a33fc4c18a5b82524f9a3cdd576982a274d621e52668e5ec18"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Cervical_spondylosis_star_graph.pdf",
+      "size_bytes": 12590,
+      "sha256": "56de417ed7f192a272642494a079cebcb7c7bbc64162f582d3d8a3a4f1d135f7"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Chicken_pox_star_graph.pdf",
+      "size_bytes": 12561,
+      "sha256": "e2b6e4c400e451c7be357ddafca19c034d09ea8dc0d2e70c43d7c1e2e7b28acc"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Chronic_cholestasis_star_graph.pdf",
+      "size_bytes": 11267,
+      "sha256": "9710f2e3f31522bdb63fe2d5622b6b0e8133351e098c6acc22a80489123f707a"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Common_Cold_star_graph.pdf",
+      "size_bytes": 12414,
+      "sha256": "b5297b2d5b7819bc6a17788f40d7ad5c73916b90873680c8e4e66e239f2c3294"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Dengue_star_graph.pdf",
+      "size_bytes": 12397,
+      "sha256": "9ebfec704553f5dd4ac3c604c325ea5fc1d7767d071a5ff50a06d1a710c41ad5"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Diabetes__star_graph.pdf",
+      "size_bytes": 12463,
+      "sha256": "96623481ffd0add4d46475c552cb36f201f5f64377958fc59aba2642441e0d63"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Dimorphic_hemmorhoids(piles)_star_graph.pdf",
+      "size_bytes": 13412,
+      "sha256": "76bfc9f72afcf77bbe945e01cd273ae127cbd5ec7f2a4bada95283d9ab1b4b0c"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Drug_Reaction_star_graph.pdf",
+      "size_bytes": 12029,
+      "sha256": "6dac087bf11cefca0f1cc13536bd00d040fe73c07decdafeacd3312e12437e5a"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Fungal_infection_star_graph.pdf",
+      "size_bytes": 13059,
+      "sha256": "c8b361602899d97d9d80864e465c3317bbea6762a2741fef976f2b01572550fc"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_GERD_star_graph.pdf",
+      "size_bytes": 12187,
+      "sha256": "30bb2051aee69936111487d8b2e73a9c28926f0aef648e2142672692f1200bd4"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Gastroenteritis_star_graph.pdf",
+      "size_bytes": 11376,
+      "sha256": "4bbdb4009571a3fb5fe9d69b75885d4dc2a41d4ce90389ab73d8169b95a6e58f"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Heart_attack_star_graph.pdf",
+      "size_bytes": 11067,
+      "sha256": "5e14e80e37600ac4918fab86623875c81c5b7a38885f86d7119b7cd882ad0c38"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hepatitis_B_star_graph.pdf",
+      "size_bytes": 13406,
+      "sha256": "0e2b84a7780e939cc0691f7f366cb67af5f8b76a5b1a7f43965f9e6f5fe6e21a"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hepatitis_C_star_graph.pdf",
+      "size_bytes": 11429,
+      "sha256": "1a15ad70455e329a8ee032927085403001c12f3959f1433e3eeae59123943d13"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hepatitis_D_star_graph.pdf",
+      "size_bytes": 11358,
+      "sha256": "24fc50ef6d38a32fb9998028d1c072623e4e16e2d92dd0c34b64472ba8e10960"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hepatitis_E_star_graph.pdf",
+      "size_bytes": 12958,
+      "sha256": "c6b01a92d55377d83c79f5d0eee4a34ea42c2ec7901152c84c47d42f09d5f990"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hypertension__star_graph.pdf",
+      "size_bytes": 11905,
+      "sha256": "22e2a283beba86dd10d8e6e2b72bcd39a981c9f05b4f3d5f58b5f9e027302a19"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hyperthyroidism_star_graph.pdf",
+      "size_bytes": 12659,
+      "sha256": "91764b4ad060c9c1e4b51d968d526f259b035625cbc7b06a2ff45b33ca21c4f2"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hypoglycemia_star_graph.pdf",
+      "size_bytes": 12796,
+      "sha256": "a6644304df1a47f3e5ec972279328e995dd3536ef15bf5622f6c0aa4531811ab"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Hypothyroidism_star_graph.pdf",
+      "size_bytes": 13729,
+      "sha256": "9d28425d3126682c61f07f98436483b2cc18c12dfbc83d0ef4d100ec96cc4855"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Impetigo_star_graph.pdf",
+      "size_bytes": 12729,
+      "sha256": "d6bbde33ebb53988f9def44735f0df47b17dbd16428d8bb7e5616b0453151b73"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Jaundice_star_graph.pdf",
+      "size_bytes": 10802,
+      "sha256": "d0e4b5728d7f7ee87e123241f79ef7fa82c51b28f0e8959c9418041b734b00bd"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Malaria_star_graph.pdf",
+      "size_bytes": 11166,
+      "sha256": "471124038951663ef1a31f7a7a57cb32df3a4b165b8510f498a86d6e81d2f6d1"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Migraine_star_graph.pdf",
+      "size_bytes": 11563,
+      "sha256": "fcf05d17f617767fbeb83fcb1295ab4d54a1c6d08df1e545634e7369231586a2"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Osteoarthristis_star_graph.pdf",
+      "size_bytes": 11618,
+      "sha256": "0f34357a0a26c20d8b983dd49732cf4c5c580440624ac0e944e662b6365dffdb"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Paralysis_(brain_hemorrhage)_star_graph.pdf",
+      "size_bytes": 13015,
+      "sha256": "24a7bdc99c935c028f94d4b365fd469ba9d6e964b133fb8b8dab8b372919f631"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Peptic_ulcer_diseae_star_graph.pdf",
+      "size_bytes": 11880,
+      "sha256": "f80946be800c91f081dd6925a9fccfeb351d5ae1a596526b00139486c7ce299d"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Pneumonia_star_graph.pdf",
+      "size_bytes": 11980,
+      "sha256": "4fa00cb8663120ba67b21b68ca1e441f73561a2b8b5f0b470e69f7d38890f890"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Psoriasis_star_graph.pdf",
+      "size_bytes": 11840,
+      "sha256": "8a5af4258b92e331044c1dc3946530c43f78f3e89acef1ea8f5a62921d6c3db9"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Tuberculosis_star_graph.pdf",
+      "size_bytes": 12885,
+      "sha256": "389448ee30f67b8b7b105fca29111eaf6b4e8fed617bf841b8ea34e3e3432c23"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Typhoid_star_graph.pdf",
+      "size_bytes": 13070,
+      "sha256": "10af16381d9f7e5e5777b233bb95f168f049c7311bf6c5d3761c5098ae31d7fc"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Urinary_tract_infection_star_graph.pdf",
+      "size_bytes": 12221,
+      "sha256": "211c89e51670d853d302758f30dec376b9dc76ca99341be50e3f980821022066"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_Varicose_veins_star_graph.pdf",
+      "size_bytes": 12476,
+      "sha256": "ce70eea4e29d4dc5948ee29ddcec3e0827e7a486b213d17a9571ea14f10905fe"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/disease_hepatitis_A_star_graph.pdf",
+      "size_bytes": 12192,
+      "sha256": "8bd277f17ded533e5a8cdd55ded38538cd6937d2785da634bd4855d8c73b26b7"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_(vertigo)_Paroymsal__Positional_Vertigo_star_graph.png",
+      "size_bytes": 187786,
+      "sha256": "a30c45883d27b188fbc733d4e7acbe983bbe75c2988e597b6b74cee39f776a29"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_AIDS_star_graph.png",
+      "size_bytes": 165605,
+      "sha256": "215559b0140d54a81d915c6823007f55696d816e29bbe6ffb6ee42f85c880d28"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Acne_star_graph.png",
+      "size_bytes": 195368,
+      "sha256": "28ee18b171c8412a5dab84f84362c042bc5dd7207df9ee40c5e38fd8da55fd67"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Alcoholic_hepatitis_star_graph.png",
+      "size_bytes": 163202,
+      "sha256": "f713b11fa79d017651b5e251bc88aed3c4980409c040e5ea956046f5a195eb48"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Allergy_star_graph.png",
+      "size_bytes": 315226,
+      "sha256": "0693ded9499a1582fe8da66ba6fe3f1099097c25d23a52ba84ee10648cb589bb"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Arthritis_star_graph.png",
+      "size_bytes": 153876,
+      "sha256": "922f0c9be59e6da66285b38ed20b917c6623e9bdeec37bf3aa26856c860923dc"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Bronchial_Asthma_star_graph.png",
+      "size_bytes": 113388,
+      "sha256": "25ef7d0852d15e1de6472ae847a9d8f9529af42a477a18525c18043f4f1bddc6"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Cervical_spondylosis_star_graph.png",
+      "size_bytes": 164909,
+      "sha256": "ab94a36643cfbebf6547308d9dc4bdbd185da1a9904dd18830849c32c98ba5d9"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Chicken_pox_star_graph.png",
+      "size_bytes": 164016,
+      "sha256": "53d13d3b7ace0309c4131a1ae6af486c52899c2cba39af99ee71e4a233ef62d7"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Chronic_cholestasis_star_graph.png",
+      "size_bytes": 110959,
+      "sha256": "221e1387737d60eb4a948fb081427d41c3376fd75e80df27962e1e6a73134e4e"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Common_Cold_star_graph.png",
+      "size_bytes": 258722,
+      "sha256": "8937ef9d5628d2549c43e07a74364e527636f5019ebaee5960cff7f483f973b9"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Dengue_star_graph.png",
+      "size_bytes": 141475,
+      "sha256": "a6f4ef87d93d8f1ada81dffc5d57ded5ade92157871ce03c37583ea712e12ffb"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Diabetes__star_graph.png",
+      "size_bytes": 200309,
+      "sha256": "b257077e4c0fd0aa3f0c60888ea9cae3c2cfaecc10e2cc2f4977d79ba6aaf453"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Dimorphic_hemmorhoids(piles)_star_graph.png",
+      "size_bytes": 170957,
+      "sha256": "99d59f1febf8b3391c0247f7f79b28c463d2dc661eb4509f27ac66a980649c0c"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Drug_Reaction_star_graph.png",
+      "size_bytes": 162235,
+      "sha256": "54ac1a918f4d47c5ced18094f97ab8482de87d302238ac5967f4f5cf843410eb"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Fungal_infection_star_graph.png",
+      "size_bytes": 321500,
+      "sha256": "8ea151747f0247d501dff798d0157b0aaaeb8a84a7c6f11e48f24aa8e14e716b"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_GERD_star_graph.png",
+      "size_bytes": 154650,
+      "sha256": "af9c12cbe03630c3b6047c4f5359dda9c8745c186599dc3b088d72dc41ecad45"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Gastroenteritis_star_graph.png",
+      "size_bytes": 161678,
+      "sha256": "83aeab7367c1e460b516b8542f84aa0ccbba355dcb4516701164fd2134858fdb"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Heart_attack_star_graph.png",
+      "size_bytes": 100973,
+      "sha256": "ec0536be61562e29c3b745bab32e52c49b06487dc3a0532a7f6849a7f3c279d2"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hepatitis_B_star_graph.png",
+      "size_bytes": 249132,
+      "sha256": "8320b0aee7c9b60c3d7ff1410ff09ebddbf05500d82a6622c34958ed41bf7b26"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hepatitis_C_star_graph.png",
+      "size_bytes": 102231,
+      "sha256": "2efb151b2296756a4f21165abae45da24c30b1f2f76c0f7255b2dd756b8ebf07"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hepatitis_D_star_graph.png",
+      "size_bytes": 101851,
+      "sha256": "aa87876ef462d9063152790890ad4989ade47160e4a0328dbef767b3ccc61e03"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hepatitis_E_star_graph.png",
+      "size_bytes": 242300,
+      "sha256": "cf0b7ef18b8f22f08ba0b6f4fc36b97e3b32f060bb3d53c39e5a0a973bbce937"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hypertension__star_graph.png",
+      "size_bytes": 161250,
+      "sha256": "c479548c0a5bd25105860c0171a2d8c778b06bbcf3410bca096c16e28677468b"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hyperthyroidism_star_graph.png",
+      "size_bytes": 208291,
+      "sha256": "ea2bf72d7cdc540a9062b39b13074ca8cb880be7f981308bd9689c512643ba12"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hypoglycemia_star_graph.png",
+      "size_bytes": 238010,
+      "sha256": "478824a79009b75c5769b9fdece4d6e2065e783615c44a6c90a4fff7d2094266"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Hypothyroidism_star_graph.png",
+      "size_bytes": 334324,
+      "sha256": "0f4785233b225aa198a153cf3b7b98a0af463be9edd2b49c8f1d5c0f9ee83e90"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Impetigo_star_graph.png",
+      "size_bytes": 203180,
+      "sha256": "3441e8cff496f17f8aaee3d53cac76757266208ed51105e63e202dc089f1598f"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Jaundice_star_graph.png",
+      "size_bytes": 115022,
+      "sha256": "753f2602f6fc97ab9d63b7711989d798b8e7b706f1bffbc49329083d4d73bf90"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Malaria_star_graph.png",
+      "size_bytes": 99501,
+      "sha256": "27f9ce950c135215a8a79bedfb0ed8ae6bb57acc5f407aecb5c79d093a30eee0"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Migraine_star_graph.png",
+      "size_bytes": 157493,
+      "sha256": "60e8c74d5da2f7e778ce87d79b0d93ff033aa3fc0c72fe659fd9c9452a56e248"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Osteoarthristis_star_graph.png",
+      "size_bytes": 157351,
+      "sha256": "f77d8ce22a81ef2bd51b65d51e0c6894a4f3ee6f79d36feaef969a32409cd537"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Peptic_ulcer_diseae_star_graph.png",
+      "size_bytes": 207267,
+      "sha256": "60555ae15197d137d4ec393a734eb4ed2e6ac258d68e8cbdb17e36d2958521b6"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Pneumonia_star_graph.png",
+      "size_bytes": 161629,
+      "sha256": "ed968d251a863289911c480aeb8af5440caf45b85c2a77d88ffcddd054fa4b85"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Psoriasis_star_graph.png",
+      "size_bytes": 151098,
+      "sha256": "e210f998edc3c7e01c35dfee56c52fdaa2906c6a125fa33db3c4e5443205e2b7"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Typhoid_star_graph.png",
+      "size_bytes": 196864,
+      "sha256": "da5b8b663c10ba13f3a2ce21d22ccbd888adf295c6e514d535d0d46d5cea1d01"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Urinary_tract_infection_star_graph.png",
+      "size_bytes": 208704,
+      "sha256": "285f20ac630d99999494fb455363ebc2952e556df4b675f7b08a3ef743ab01be"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_Varicose_veins_star_graph.png",
+      "size_bytes": 250209,
+      "sha256": "a30af4c9ec3f9fbead72a50a6a0e42f0afee3f188dd6fb5e6aa95b2c2459e530"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/disease_star_graphs/png_previews/disease_hepatitis_A_star_graph.png",
+      "size_bytes": 198779,
+      "sha256": "430db257b2bce458d394462e4d1124778eeef3a397d48f7513b78d31a2ce4b59"
+    },
+    {
+      "path": "research/results/star_ci/feature_selection/selected_symptoms.txt",
+      "size_bytes": 1712,
+      "sha256": "d70a5b9d86d097f86fceb628d4851443c11f36dff4a36b2ea6ec19fd571cc331"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/all_models_comparison.csv",
+      "size_bytes": 1496,
+      "sha256": "671bd64e55f2921361c3b79961d5e75677f2833f1f84b41d77117afefef8873f"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/classification_report.csv",
+      "size_bytes": 1629,
+      "sha256": "d8317c9032f121510f23556fb80e5b5e9b7fad1a76eecac5770551cfdea00a49"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/comparison_barplot_logistic_regression.png",
+      "size_bytes": 101223,
+      "sha256": "dc763bffca3ae12bc8567a5d89fd781068f70e3b4279efedb114ab09575e5459"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/comparison_barplot_random_forest.png",
+      "size_bytes": 103648,
+      "sha256": "5abd3f9296f7e0056044945a232f958f3e16588b481a42157902143b5b2ed061"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/comparison_barplot_xgboost.png",
+      "size_bytes": 102222,
+      "sha256": "5b864eceaefe8e1dfa7e512bb4e8de50ba6bd481e2f593df84390810d4a1c3d3"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/confusion_matrix.png",
+      "size_bytes": 371506,
+      "sha256": "363d5cbcd57b1e767bc005acd370d231335c17357e491e763f66bb0f72c10c10"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/learning_curve_all_symptoms.png",
+      "size_bytes": 102893,
+      "sha256": "1a2fba41a97938f52503883c5c1487c4f2caa57e4c22bb9f0e12a95e39c502da"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/learning_curve_ci_selected.png",
+      "size_bytes": 76263,
+      "sha256": "791a89c6f52bcb44f28ee3dfdfbde453a3d379841b8e93cda3b2ead1151f9386"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/model_comparison.csv",
+      "size_bytes": 270,
+      "sha256": "16f6d4586fd0023d02e1f2f455bd9cc45ae610079f3d74f83e27077b09b3749a"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/model_comparison_barplot.png",
+      "size_bytes": 101223,
+      "sha256": "dc763bffca3ae12bc8567a5d89fd781068f70e3b4279efedb114ab09575e5459"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/overfitting_gap.csv",
+      "size_bytes": 255,
+      "sha256": "7f8c821a10b731149a5d601128b95627ecf040a39d5f64567333d0c9563f83dc"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/overfitting_gap_barplot.png",
+      "size_bytes": 76894,
+      "sha256": "22c177186055c2017818fb2e7ce0f41d5f31cf5c85ee75f30170e4507500d32c"
+    },
+    {
+      "path": "research/results/star_ci/model_evaluation/prediction_probabilities.csv",
+      "size_bytes": 42290,
+      "sha256": "06d36c76fc47aa430a172a63de47769ca4ccc812591f784e134beb6076952605"
+    }
+  ]
+}

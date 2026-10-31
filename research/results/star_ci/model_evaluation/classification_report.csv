@@ -1,0 +1,42 @@
+Disease,Precision,Recall,F1,Support
+disease_(vertigo) Paroymsal  Positional Vertigo,1.0,1.0,1.0,1.0
+disease_AIDS,1.0,1.0,1.0,1.0
+disease_Acne,1.0,1.0,1.0,1.0
+disease_Alcoholic hepatitis,1.0,1.0,1.0,1.0
+disease_Allergy,1.0,1.0,1.0,1.0
+disease_Arthritis,1.0,1.0,1.0,1.0
+disease_Bronchial Asthma,1.0,1.0,1.0,1.0
+disease_Cervical spondylosis,1.0,1.0,1.0,1.0
+disease_Chicken pox,1.0,1.0,1.0,1.0
+disease_Chronic cholestasis,1.0,1.0,1.0,1.0
+disease_Common Cold,1.0,1.0,1.0,1.0
+disease_Dengue,1.0,1.0,1.0,1.0
+disease_Diabetes ,1.0,1.0,1.0,1.0
+disease_Dimorphic hemmorhoids(piles),1.0,1.0,1.0,1.0
+disease_Drug Reaction,0.5,1.0,0.6666666666666666,1.0
+disease_Fungal infection,1.0,0.5,0.6666666666666666,2.0
+disease_GERD,1.0,1.0,1.0,1.0
+disease_Gastroenteritis,1.0,1.0,1.0,1.0
+disease_Heart attack,1.0,1.0,1.0,1.0
+disease_Hepatitis B,1.0,1.0,1.0,1.0
+disease_Hepatitis C,1.0,1.0,1.0,1.0
+disease_Hepatitis D,1.0,1.0,1.0,1.0
+disease_Hepatitis E,1.0,1.0,1.0,1.0
+disease_Hypertension ,1.0,1.0,1.0,1.0
+disease_Hyperthyroidism,1.0,1.0,1.0,1.0
+disease_Hypoglycemia,1.0,1.0,1.0,1.0
+disease_Hypothyroidism,1.0,1.0,1.0,1.0
+disease_Impetigo,1.0,1.0,1.0,1.0
+disease_Jaundice,1.0,1.0,1.0,1.0
+disease_Malaria,1.0,1.0,1.0,1.0
+disease_Migraine,1.0,1.0,1.0,1.0
+disease_Osteoarthristis,1.0,1.0,1.0,1.0
+disease_Paralysis (brain hemorrhage),1.0,1.0,1.0,1.0
+disease_Peptic ulcer diseae,1.0,1.0,1.0,1.0
+disease_Pneumonia,1.0,1.0,1.0,1.0
+disease_Psoriasis,1.0,1.0,1.0,1.0
+disease_Tuberculosis,1.0,1.0,1.0,1.0
+disease_Typhoid,1.0,1.0,1.0,1.0
+disease_Urinary tract infection,1.0,1.0,1.0,1.0
+disease_Varicose veins,1.0,1.0,1.0,1.0
+disease_hepatitis A,1.0,1.0,1.0,1.0

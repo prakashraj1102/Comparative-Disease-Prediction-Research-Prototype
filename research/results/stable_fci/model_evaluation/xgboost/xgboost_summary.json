@@ -1,0 +1,146 @@
+{
+  "stable_fci": {
+    "n_features": 37,
+    "best_params": {
+      "n_estimators": 500,
+      "max_depth": 9,
+      "learning_rate": 0.01
+    },
+    "best_cv_macro_f1": 0.7803735503248814,
+    "train_metrics": {
+      "split": "train",
+      "model": "XGBoost - Stable-FCI features",
+      "n_features": 37,
+      "accuracy": 0.8163109756097561,
+      "precision_macro": 0.7696910353079701,
+      "recall_macro": 0.8163109756097561,
+      "f1_macro": 0.7808243793909442,
+      "precision_weighted": 0.76969103530797,
+      "recall_weighted": 0.8163109756097561,
+      "f1_weighted": 0.7808243793909443,
+      "roc_auc_macro_ovr": 0.989892908938855,
+      "top3_accuracy": 0.9354674796747967,
+      "evaluation_time_sec": 0.3845
+    },
+    "test_metrics": {
+      "split": "test",
+      "model": "XGBoost - Stable-FCI features",
+      "n_features": 37,
+      "accuracy": 0.8079268292682927,
+      "precision_macro": 0.7669654944198442,
+      "recall_macro": 0.8079268292682927,
+      "f1_macro": 0.7749378757463765,
+      "precision_weighted": 0.7669654944198442,
+      "recall_weighted": 0.8079268292682927,
+      "f1_weighted": 0.7749378757463765,
+      "roc_auc_macro_ovr": 0.9889534637533874,
+      "top3_accuracy": 0.9288617886178862,
+      "evaluation_time_sec": 0.1771
+    },
+    "generalization_gap": {
+      "accuracy": 0.008384146341463339,
+      "precision_macro": 0.0027255408881259324,
+      "recall_macro": 0.008384146341463339,
+      "f1_macro": 0.005886503644567664,
+      "precision_weighted": 0.0027255408881258214,
+      "recall_weighted": 0.008384146341463339,
+      "f1_weighted": 0.005886503644567775,
+      "roc_auc_macro_ovr": 0.0009394451854675134,
+      "top3_accuracy": 0.0066056910569105565
+    }
+  },
+  "all_symptoms": {
+    "n_features": 132,
+    "best_params": {
+      "n_estimators": 100,
+      "max_depth": 3,
+      "learning_rate": 0.3
+    },
+    "best_cv_macro_f1": 1.0,
+    "train_metrics": {
+      "split": "train",
+      "model": "XGBoost - All symptoms",
+      "n_features": 132,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc_macro_ovr": 1.0,
+      "top3_accuracy": 1.0,
+      "evaluation_time_sec": 0.1679
+    },
+    "test_metrics": {
+      "split": "test",
+      "model": "XGBoost - All symptoms",
+      "n_features": 132,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "roc_auc_macro_ovr": 1.0,
+      "top3_accuracy": 1.0,
+      "evaluation_time_sec": 0.1081
+    },
+    "generalization_gap": {
+      "accuracy": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0,
+      "f1_macro": 0.0,
+      "precision_weighted": 0.0,
+      "recall_weighted": 0.0,
+      "f1_weighted": 0.0,
+      "roc_auc_macro_ovr": 0.0,
+      "top3_accuracy": 0.0
+    }
+  },
+  "feature_reduction_pct": 71.97,
+  "overfitting_controls": {
+    "stratified_train_test_split": true,
+    "test_size": 0.2,
+    "random_state": 42,
+    "stable_fci_run_on_training_only": true,
+    "stratified_cv_folds": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "param_grid": [
+      {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.3
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "learning_rate": 0.1
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 3,
+        "learning_rate": 0.1
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 6,
+        "learning_rate": 0.05
+      },
+      {
+        "n_estimators": 500,
+        "max_depth": 6,
+        "learning_rate": 0.05
+      },
+      {
+        "n_estimators": 500,
+        "max_depth": 9,
+        "learning_rate": 0.01
+      }
+    ],
+    "CV_selection_metric": "macro_f1",
+    "test_used_for_param_selection": false
+  }
+}

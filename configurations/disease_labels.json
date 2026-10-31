@@ -1,0 +1,295 @@
+{
+  "config_version": "1.0",
+  "description": "Cross-approach display mapping. Stable labels are the canonical sequence; STAR labels map after removing only the disease_ prefix.",
+  "class_count": 41,
+  "class_order_verified_across_models": true,
+  "classes": [
+    {
+      "class_index": 0,
+      "stable_fci_model_label": "(vertigo) Paroymsal  Positional Vertigo",
+      "star_ci_model_label": "disease_(vertigo) Paroymsal  Positional Vertigo",
+      "display_name": "(vertigo) Paroymsal  Positional Vertigo",
+      "star_xgboost_encoded_class": 0
+    },
+    {
+      "class_index": 1,
+      "stable_fci_model_label": "AIDS",
+      "star_ci_model_label": "disease_AIDS",
+      "display_name": "AIDS",
+      "star_xgboost_encoded_class": 1
+    },
+    {
+      "class_index": 2,
+      "stable_fci_model_label": "Acne",
+      "star_ci_model_label": "disease_Acne",
+      "display_name": "Acne",
+      "star_xgboost_encoded_class": 2
+    },
+    {
+      "class_index": 3,
+      "stable_fci_model_label": "Alcoholic hepatitis",
+      "star_ci_model_label": "disease_Alcoholic hepatitis",
+      "display_name": "Alcoholic hepatitis",
+      "star_xgboost_encoded_class": 3
+    },
+    {
+      "class_index": 4,
+      "stable_fci_model_label": "Allergy",
+      "star_ci_model_label": "disease_Allergy",
+      "display_name": "Allergy",
+      "star_xgboost_encoded_class": 4
+    },
+    {
+      "class_index": 5,
+      "stable_fci_model_label": "Arthritis",
+      "star_ci_model_label": "disease_Arthritis",
+      "display_name": "Arthritis",
+      "star_xgboost_encoded_class": 5
+    },
+    {
+      "class_index": 6,
+      "stable_fci_model_label": "Bronchial Asthma",
+      "star_ci_model_label": "disease_Bronchial Asthma",
+      "display_name": "Bronchial Asthma",
+      "star_xgboost_encoded_class": 6
+    },
+    {
+      "class_index": 7,
+      "stable_fci_model_label": "Cervical spondylosis",
+      "star_ci_model_label": "disease_Cervical spondylosis",
+      "display_name": "Cervical spondylosis",
+      "star_xgboost_encoded_class": 7
+    },
+    {
+      "class_index": 8,
+      "stable_fci_model_label": "Chicken pox",
+      "star_ci_model_label": "disease_Chicken pox",
+      "display_name": "Chicken pox",
+      "star_xgboost_encoded_class": 8
+    },
+    {
+      "class_index": 9,
+      "stable_fci_model_label": "Chronic cholestasis",
+      "star_ci_model_label": "disease_Chronic cholestasis",
+      "display_name": "Chronic cholestasis",
+      "star_xgboost_encoded_class": 9
+    },
+    {
+      "class_index": 10,
+      "stable_fci_model_label": "Common Cold",
+      "star_ci_model_label": "disease_Common Cold",
+      "display_name": "Common Cold",
+      "star_xgboost_encoded_class": 10
+    },
+    {
+      "class_index": 11,
+      "stable_fci_model_label": "Dengue",
+      "star_ci_model_label": "disease_Dengue",
+      "display_name": "Dengue",
+      "star_xgboost_encoded_class": 11
+    },
+    {
+      "class_index": 12,
+      "stable_fci_model_label": "Diabetes ",
+      "star_ci_model_label": "disease_Diabetes ",
+      "display_name": "Diabetes ",
+      "star_xgboost_encoded_class": 12
+    },
+    {
+      "class_index": 13,
+      "stable_fci_model_label": "Dimorphic hemmorhoids(piles)",
+      "star_ci_model_label": "disease_Dimorphic hemmorhoids(piles)",
+      "display_name": "Dimorphic hemmorhoids(piles)",
+      "star_xgboost_encoded_class": 13
+    },
+    {
+      "class_index": 14,
+      "stable_fci_model_label": "Drug Reaction",
+      "star_ci_model_label": "disease_Drug Reaction",
+      "display_name": "Drug Reaction",
+      "star_xgboost_encoded_class": 14
+    },
+    {
+      "class_index": 15,
+      "stable_fci_model_label": "Fungal infection",
+      "star_ci_model_label": "disease_Fungal infection",
+      "display_name": "Fungal infection",
+      "star_xgboost_encoded_class": 15
+    },
+    {
+      "class_index": 16,
+      "stable_fci_model_label": "GERD",
+      "star_ci_model_label": "disease_GERD",
+      "display_name": "GERD",
+      "star_xgboost_encoded_class": 16
+    },
+    {
+      "class_index": 17,
+      "stable_fci_model_label": "Gastroenteritis",
+      "star_ci_model_label": "disease_Gastroenteritis",
+      "display_name": "Gastroenteritis",
+      "star_xgboost_encoded_class": 17
+    },
+    {
+      "class_index": 18,
+      "stable_fci_model_label": "Heart attack",
+      "star_ci_model_label": "disease_Heart attack",
+      "display_name": "Heart attack",
+      "star_xgboost_encoded_class": 18
+    },
+    {
+      "class_index": 19,
+      "stable_fci_model_label": "Hepatitis B",
+      "star_ci_model_label": "disease_Hepatitis B",
+      "display_name": "Hepatitis B",
+      "star_xgboost_encoded_class": 19
+    },
+    {
+      "class_index": 20,
+      "stable_fci_model_label": "Hepatitis C",
+      "star_ci_model_label": "disease_Hepatitis C",
+      "display_name": "Hepatitis C",
+      "star_xgboost_encoded_class": 20
+    },
+    {
+      "class_index": 21,
+      "stable_fci_model_label": "Hepatitis D",
+      "star_ci_model_label": "disease_Hepatitis D",
+      "display_name": "Hepatitis D",
+      "star_xgboost_encoded_class": 21
+    },
+    {
+      "class_index": 22,
+      "stable_fci_model_label": "Hepatitis E",
+      "star_ci_model_label": "disease_Hepatitis E",
+      "display_name": "Hepatitis E",
+      "star_xgboost_encoded_class": 22
+    },
+    {
+      "class_index": 23,
+      "stable_fci_model_label": "Hypertension ",
+      "star_ci_model_label": "disease_Hypertension ",
+      "display_name": "Hypertension ",
+      "star_xgboost_encoded_class": 23
+    },
+    {
+      "class_index": 24,
+      "stable_fci_model_label": "Hyperthyroidism",
+      "star_ci_model_label": "disease_Hyperthyroidism",
+      "display_name": "Hyperthyroidism",
+      "star_xgboost_encoded_class": 24
+    },
+    {
+      "class_index": 25,
+      "stable_fci_model_label": "Hypoglycemia",
+      "star_ci_model_label": "disease_Hypoglycemia",
+      "display_name": "Hypoglycemia",
+      "star_xgboost_encoded_class": 25
+    },
+    {
+      "class_index": 26,
+      "stable_fci_model_label": "Hypothyroidism",
+      "star_ci_model_label": "disease_Hypothyroidism",
+      "display_name": "Hypothyroidism",
+      "star_xgboost_encoded_class": 26
+    },
+    {
+      "class_index": 27,
+      "stable_fci_model_label": "Impetigo",
+      "star_ci_model_label": "disease_Impetigo",
+      "display_name": "Impetigo",
+      "star_xgboost_encoded_class": 27
+    },
+    {
+      "class_index": 28,
+      "stable_fci_model_label": "Jaundice",
+      "star_ci_model_label": "disease_Jaundice",
+      "display_name": "Jaundice",
+      "star_xgboost_encoded_class": 28
+    },
+    {
+      "class_index": 29,
+      "stable_fci_model_label": "Malaria",
+      "star_ci_model_label": "disease_Malaria",
+      "display_name": "Malaria",
+      "star_xgboost_encoded_class": 29
+    },
+    {
+      "class_index": 30,
+      "stable_fci_model_label": "Migraine",
+      "star_ci_model_label": "disease_Migraine",
+      "display_name": "Migraine",
+      "star_xgboost_encoded_class": 30
+    },
+    {
+      "class_index": 31,
+      "stable_fci_model_label": "Osteoarthristis",
+      "star_ci_model_label": "disease_Osteoarthristis",
+      "display_name": "Osteoarthristis",
+      "star_xgboost_encoded_class": 31
+    },
+    {
+      "class_index": 32,
+      "stable_fci_model_label": "Paralysis (brain hemorrhage)",
+      "star_ci_model_label": "disease_Paralysis (brain hemorrhage)",
+      "display_name": "Paralysis (brain hemorrhage)",
+      "star_xgboost_encoded_class": 32
+    },
+    {
+      "class_index": 33,
+      "stable_fci_model_label": "Peptic ulcer diseae",
+      "star_ci_model_label": "disease_Peptic ulcer diseae",
+      "display_name": "Peptic ulcer diseae",
+      "star_xgboost_encoded_class": 33
+    },
+    {
+      "class_index": 34,
+      "stable_fci_model_label": "Pneumonia",
+      "star_ci_model_label": "disease_Pneumonia",
+      "display_name": "Pneumonia",
+      "star_xgboost_encoded_class": 34
+    },
+    {
+      "class_index": 35,
+      "stable_fci_model_label": "Psoriasis",
+      "star_ci_model_label": "disease_Psoriasis",
+      "display_name": "Psoriasis",
+      "star_xgboost_encoded_class": 35
+    },
+    {
+      "class_index": 36,
+      "stable_fci_model_label": "Tuberculosis",
+      "star_ci_model_label": "disease_Tuberculosis",
+      "display_name": "Tuberculosis",
+      "star_xgboost_encoded_class": 36
+    },
+    {
+      "class_index": 37,
+      "stable_fci_model_label": "Typhoid",
+      "star_ci_model_label": "disease_Typhoid",
+      "display_name": "Typhoid",
+      "star_xgboost_encoded_class": 37
+    },
+    {
+      "class_index": 38,
+      "stable_fci_model_label": "Urinary tract infection",
+      "star_ci_model_label": "disease_Urinary tract infection",
+      "display_name": "Urinary tract infection",
+      "star_xgboost_encoded_class": 38
+    },
+    {
+      "class_index": 39,
+      "stable_fci_model_label": "Varicose veins",
+      "star_ci_model_label": "disease_Varicose veins",
+      "display_name": "Varicose veins",
+      "star_xgboost_encoded_class": 39
+    },
+    {
+      "class_index": 40,
+      "stable_fci_model_label": "hepatitis A",
+      "star_ci_model_label": "disease_hepatitis A",
+      "display_name": "hepatitis A",
+      "star_xgboost_encoded_class": 40
+    }
+  ]
+}

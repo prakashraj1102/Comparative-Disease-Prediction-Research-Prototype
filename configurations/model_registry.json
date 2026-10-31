@@ -1,0 +1,47 @@
+{
+  "registry_version": "1.0",
+  "required_runtime": {
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.1.3"
+  },
+  "approaches": {
+    "stable_fci": {
+      "display_name": "Stable-FCI",
+      "feature_config": "stable_fci_features.json",
+      "models": {
+        "logistic_regression": {
+          "display_name": "Logistic Regression",
+          "path": "artifacts/stable_fci/logistic_regression/stable_fci_logistic_regression.joblib"
+        },
+        "random_forest": {
+          "display_name": "Random Forest",
+          "path": "artifacts/stable_fci/random_forest/stable_fci_random_forest.joblib"
+        },
+        "xgboost": {
+          "display_name": "XGBoost",
+          "path": "artifacts/stable_fci/xgboost/stable_fci_xgboost.joblib",
+          "custom_wrapper": "__main__.XGBClassifierWithLabels"
+        }
+      }
+    },
+    "star_ci": {
+      "display_name": "STAR CI-selected",
+      "feature_config": "star_ci_features.json",
+      "models": {
+        "logistic_regression": {
+          "display_name": "Logistic Regression",
+          "path": "artifacts/star_ci/logistic_regression/logistic_regression_model.joblib"
+        },
+        "random_forest": {
+          "display_name": "Random Forest",
+          "path": "artifacts/star_ci/random_forest/random_forest_model_ci_selected.joblib"
+        },
+        "xgboost": {
+          "display_name": "XGBoost",
+          "path": "artifacts/star_ci/xgboost/xgboost_model_ci_selected.joblib",
+          "encoded_class_mapping": "disease_labels.json"
+        }
+      }
+    }
+  }
+}
